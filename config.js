@@ -17,15 +17,15 @@ module.exports = {
   // groups = only working in group
   OWNER_NUMBER: process.env.OWNER_NUMBER || "923308363433",
   //========================================- OTHER - CONFIGS -=====================================================================
-  NSFW_CMD: process.env.NSFW_CMD || "false",
+  NSFW_CMD: process.env.NSFW_CMD || "true",
   MONGODB: process.env.MONGODB || "mongodb+srv://vishwamihi22:vishwamihi22@cluster0.y6r9gav.mongodb.net/",
   TIMEZONE: process.env.TIMEZONE || "Asia/Colombo",
   AUTO_VOICE: process.env.AUTO_VOICE || "false",
-  AUTO_BIO: process.env.AUTO_BIO || "false",
+  AUTO_BIO: process.env.AUTO_BIO || "true",
   ANTI_BAD_WORDS_ENABLED: process.env.ANTI_BAD_WORDS_ENABLED || "true",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
   ANTI_BAD_WORDS: (process.env.ANTI_BAD_WORDS || "pakayo,huththo").split(','),
-  ANTI_LINK: process.env.ANTILINK || "false",
+  ANTI_LINK: process.env.ANTILINK || "true",
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
   ALWAYS_TYPING: process.env.ALWAYS_TYPING || "false",
   ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "false",
