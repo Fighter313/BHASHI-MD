@@ -5,11 +5,11 @@ module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
   SESSION_ID: process.env.SESSION_ID || "YZxVxKzY#eSkzPPPfNWzqHbpKSUlsXg-bDnyXcReQXuiMOc63dS8",
   // ADD Your Session Id 
-  MONGODB: process.env.MONGODB || "mongodb+srv://vishwamihi22:vishwamihi22@cluster0.y6r9gav.mongodb.net/",
+  MONGODB: process.env.MONGODB || "",
     // ADD Your MongoDB Database URL
-  PREFIX: process.env.PREFIX || ".",
+  PREFIX: process.env.PREFIX || ",",
   // Add Your Custom Prefix 
-  mode: process.env.mode || "private",
+  mode: process.env.mode || "public",
   // Add Your Bot Mode 
   // private = Only Working For Owner Number
   // public = AnyOne Working
